@@ -18,7 +18,7 @@ del {
 	text-decoration: line-through;
 }
 body {
-	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-family: 'Inter-Regular', Arial, Helvetica, sans-serif;
 	font-size: 17px;
 	color: #000;
 	overflow-x: hidden;
@@ -26,7 +26,7 @@ body {
 	font-weight: 500;
 }
 input,textarea,select{
-	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-family: 'Inter-Regular', Arial, Helvetica, sans-serif;
 	font-weight: 500;
 }
 
@@ -43,7 +43,7 @@ a{
 p{
 	line-height:1.6em;
 	font-size: 16px;
-	font-family: "GT-Eesti", Arial;
+	font-family: 'Inter-Regular', Arial;
 	font-weight: 500;
 	color: #000;
 }
@@ -57,7 +57,7 @@ br.clear {
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
-	max-width:1200px;
+	max-width:1440px;
 }
 .flex-wrapper {
 	display: flex;
@@ -134,3 +134,220 @@ br.clear {
     font-style: normal;
     font-display: swap;
 }
+#container{
+   
+   
+    
+
+}
+#container img.vector{
+    position: absolute;
+    z-index: -2;
+
+}
+#container img.subtract{
+    position: absolute;
+    z-index: -1;
+   
+}
+
+header{
+    padding: 20px;
+
+}
+header section.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header section.content h1{
+    width: 100px;
+
+}
+header section.content h1 img{
+    width: 100%;
+    display: block;
+
+}
+header section.content nav.middle{
+   
+
+}
+header section.content nav.middle ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header section.content nav.middle ul li{
+    margin-right: 40px;
+
+}
+header section.content nav.middle ul li:last-child{
+    margin-right: 0;
+}
+header section.content nav.middle ul li a{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+
+}
+header section.content span{
+
+}
+header section.content span a.button{
+    padding: 16px 40px;
+    border-radius: 20px;
+    background-image: linear-gradient( to right, #69a543, #bced9c);
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+#spotlight{
+    padding: 80px 0px 0 30px; 
+
+}
+#spotlight h1{
+    font-size: 72px;
+    width: 55%;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+#spotlight p{
+    width: 60%;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+    
+
+}
+#spotlight a.button{
+    color: #fff;
+    padding: 16px 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-image: linear-gradient( to right, #69a543, #bced9c);
+}
+#about{
+    background-image: url(../Assets/Vector\ 283.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    
+}
+#about div.container{
+    max-width: 900px
+ 
+  
+}
+#about div.container h2{
+    font-size: 50px;  
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+#about p{
+    font-size: 20px;
+    max-width: 840px;
+    
+
+
+}
+#services{
+    padding: 40px 0 30px;
+
+}
+#services h2{
+    font-size: 50px;  
+    font-weight: 800;
+    max-width: 300px;
+    margin: 0 auto 30px;
+
+}
+#services section.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+
+}
+#services section.flex div.item{
+    width: 31%;
+    text-align: center;
+
+}
+#services section.flex div.item div.container{
+    position: relative;
+}
+#services section.flex div.item div.container img.frame{
+
+}
+#services section.flex div.item div.container img.comp{
+    position: absolute;
+    width: 65px;
+    right: 40%;
+    bottom: 34%;
+    filter: invert(100%);
+
+
+}
+#services section.flex div.item h4{
+    font-size: 30px;
+    margin: 20px 0;
+
+}
+#services section.flex div.item p{
+    font-size: 20px;
+
+}
+#consulting{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

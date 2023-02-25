@@ -309,8 +309,166 @@ header section.content span a.button{
 
 }
 #consulting{
+    background: url("../Assets/Vector\ 284.png") center / cover no-repeat;
+	background-size: 100% 900px;
+    margin-top: -6%;
+    height: 950px;
     
 }
+#consulting section.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19.5% 0 0;
+
+}
+#consulting section.container div.left{
+    width: 48%;
+}
+#consulting section.container div.left div.image{
+
+}
+#consulting section.container div.image img{
+    width: 100%;
+    display: block;
+    border-radius: 102% 54% 102% 55%/ 110% 81% 94% 64%;
+   
+  
+}
+#consulting section.container div.right{
+width: 48%;
+margin-left: 20px;
+}
+#consulting section.container div.right h2{
+    font-size: 50px;
+    font-weight: 800;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#consulting section.container div.right p{
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+#consulting section.container div.right a.button{
+    padding: 16px 40px;
+    border-radius: 20px;
+    background-image: linear-gradient( to right, #69a543, #bced9c);
+    display: inline-block;
+    font-size: 20px;
+
+}
+#middle{
+
+}
+#middle div.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+#middle div.flex section.left{
+    width:35%;
+}
+#middle div.flex section.left h2{
+    width: 100%;
+    font-size: 50px;
+    font-weight: 800;
+}
+#middle div.flex ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+#middle div.flex ul li{
+    text-align: center;
+
+}
+#middle div.flex ul li section.top{
+}
+#middle div.flex ul li section.bottom{
+    margin-top: 95px;
+}
+#middle div.flex ul li div.content{
+    width: 60px;
+    margin: 0 auto;
+
+
+}
+#middle div.flex ul li div.content img{
+
+    width: 100%;
+    display: block;
+    filter: invert(68%) sepia(24%) saturate(580%) hue-rotate(50deg) brightness(90%) contrast(87%)
+}
+#middle div.flex ul li h5{
+    font-size: 22px;
+    font-weight: 800;
+    margin: 20px 0;
+
+}
+#middle div.flex ul li p{
+    font-size: 18px;
+    width: 90%;
+    font-weight: 550;
+
+}
+#redefine{
+    background: url("../Assets/Vector\ 285.png") center / cover no-repeat;
+	background-size: 100% 900px;
+    margin-top: -4%;
+    height: 950px;
+    
+
+}
+#redefine section.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15%;
+
+}
+#redefine section.container div.left{
+    width: 48%;
+
+}
+#redefine section.container div.left h2{
+
+}
+#redefine section.container div.left p{
+
+}
+#redefine section.container div.left h5{
+
+}
+#redefine section.container div.left ul{
+
+} 
+#redefine section.container div.left ul li{
+
+
+} 
+#redefine section.container div.right{
+    width: 48%;
+}
+
+#redefine section.container div.right div.image{
+   
+   
+
+
+}
+#redefine section.container div.right div.image img{
+    width: 100%;
+    border-radius: 102% 54% 102% 55%/ 110% 81% 94% 64%;
+
+}
+
+
 
 
 

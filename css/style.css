@@ -135,9 +135,6 @@ br.clear {
     font-display: swap;
 }
 #container{
-   
-   
-    
 
 }
 #container img.vector{
@@ -412,7 +409,7 @@ margin-left: 20px;
 
 }
 #middle div.flex ul li p{
-    font-size: 18px;
+    font-size: 20px;
     width: 90%;
     font-weight: 550;
 
@@ -433,24 +430,40 @@ margin-left: 20px;
 
 }
 #redefine section.container div.left{
-    width: 48%;
+    width: 47%;
 
 }
 #redefine section.container div.left h2{
-
+    max-width: 90%;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
 }
 #redefine section.container div.left p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 550;
+    max-width: 96%;
 
 }
 #redefine section.container div.left h5{
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 20px;
 
 }
 #redefine section.container div.left ul{
 
 } 
 #redefine section.container div.left ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 550;
+    max-width: 96%;
 
-
+}
+#redefine section.container div.left ul li:last-child{
+    margin-bottom: 0;
 } 
 #redefine section.container div.right{
     width: 48%;
@@ -465,6 +478,98 @@ margin-left: 20px;
 #redefine section.container div.right div.image img{
     width: 100%;
     border-radius: 102% 54% 102% 55%/ 110% 81% 94% 64%;
+
+}
+#talks{
+     padding: 6% 0;
+
+}
+#talks h2{
+    max-width: 800px;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0 auto 30px;
+
+}
+#talks section.redefine{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+#talks section.redefine div.left{
+    background-image: url(../Assets/Frame\ 3466320.png);
+    background-repeat: no-repeat;
+    width: 48%;
+    height: 330px;
+    background-position: 80px -15px;
+    background-size:340px 340px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#talks section.redefine div.left div.container{
+    height: 170px;
+    width: 170px;
+    margin-bottom: 20%;
+
+}
+#talks section.redefine div.left div.container img{
+  width: 102%;
+  display: block;
+  border-radius: 50%;
+  height: 197px;
+  border: 5px solid #fff;
+}
+#talks section.redefine div.right{
+    width: 48%;
+
+}
+#talks section.redefine div.right h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 800;
+
+}
+#talks section.redefine div.right p{
+    font-size: 18px;
+    font-weight: 550;
+
+}
+#talks section.partners{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+#talks section.partners div.heading{
+    width: 25%;
+}
+#talks section.partners div.heading h2{
+    margin: 0 auto;
+    width: 90%;
+}
+#talks section.partners div.logo{
+  width: 75%;
+}
+#talks section.partners div.logo ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#talks section.partners div.logo ul li{
+    width: 23%;
+}
+#talks section.partners div.logo ul li img{
+    display: block;
+    width: 100%;
 
 }
 

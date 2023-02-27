@@ -151,7 +151,7 @@ br.clear {
 }
 
 header{
-    padding: 20px;
+    padding: 20px 0;
 
 }
 header section.content{
@@ -771,8 +771,450 @@ margin-left: 20px;
     font-size: 16px;
     margin-bottom: 20px;
 }
+@media all and (max-width: 1380px){
+    #spotlight {
+        padding: 60px 0 0 0;
+    }
+    #spotlight h1 {
+        font-size: 60px;
+        width: 55%;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 20px
+    }
+    #about{
+        height: 530px;
+        margin-top: 250px
+    }
+    #about div.container h2 {
+        font-size: 46px
+    }
+    #services h2 {
+        font-size: 46px
+    }
+    #consulting section.container{
+        padding: 26.5% 0 0;
+    }
+    #consulting section.container div.right h2{
+        font-size: 46px;
+        font-weight: 600;
+    }
+    #middle div.flex section.left {
+        width: 32%;
+    }
+    #middle div.flex section.left h2{
+        font-size: 44px;
+        line-height: 1.4em;
+        font-weight: 600;
+    }
+    #middle div.flex ul {
+        width: 77%
+    }
+    #redefine {
+        background-size: 122% 900px;
+    }
+    #redefine section.container{
+        padding-top: 21%;
+    }
+    #redefine section.container div.left{
+        width: 50%;
+    }
+    #redefine section.container div.left h2{
+        font-size: 44px;
+        font-weight: 600;
+    }
+    #redefine section.container div.left p{
+        max-width: 100%;
+    }
+    #redefine section.container div.left ul li{
+        max-width:100%;
+    }
+    #talks h2{
+        font-weight: 600;
+        font-size: 46px;
+    }
+    #talks section.redefine div.left{
+        background-position: 37px -15px;
 
+    }
+    #talks section.partners div.heading h2{
+        font-size: 44px;
+        font-weight: 600;
+        width: 93%;
+    }
+    
+}
+@media all and (max-width:1280px){
+    header section.content nav.middle ul li a{
+        font-size: 18px;
+    }
+    header section.content span a.button{
+        font-size: 18px;
+    }
+    #spotlight {
+        padding: 20px 0 0 0;
+        
+    }
+    #spotlight h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    #spotlight p{
+        margin-bottom: 26px;
+    }
+    #about{
+        margin-top: 120px;
+        height: 450px;
+    }
+    #about div.container h2{
+        font-size: 40px;
+    }
+    #about p{
+        font-size: 18px;
+        max-width: 735px;
+    }
+    #services h2{
+        font-size: 40px;
+    }
+    #services section.flex div.item h4{
+        font-size: 26px;
+    }
+    #services section.flex div.item p{
+        font-size: 18px;
+    }
+    #consulting{
+        margin-top: -12%;
+        background-size: 103% 800px;
+        height: 830px;
+    }
+    #consulting section.container div.right h2{
+        font-size: 40px;
+    }
+    #consulting section.container div.right p{
+        font-size: 18px;
+    }
+    #consulting section.container div.right a.button{
+        font-size: 18px;
+    }
+    #middle div.flex section.left h2{
+        font-size: 40px;
+    }
+    #middle div.flex ul li h5{
+        font-weight: 600;
+    }
+    #middle div.flex ul li p{
+        font-size: 18px;
+        width: 97%;
 
+    }
+    #middle div.flex ul li section.bottom{
+        margin-top: 50px;
+    }
+    #redefine{
+        margin-top: -13%;
+        background-size: 117% 849px;
+        height: 900px;
+
+    }
+    #redefine section.container{
+        padding-top: 24%;
+    }
+    #redefine section.container div.left h2{
+        font-size: 40px;
+    }
+    #redefine section.container div.left p{
+        font-size: 18px;
+    }
+    #redefine section.container div.left ul li{
+        font-size: 18px;
+    }
+    #talks h2{
+        font-size: 40px;
+    }
+    #talks section.redefine div.left{
+        background-position: -20px -9px;
+    }
+    #talks section.redefine div.left div.container {
+        margin-bottom: 13%;
+    }
+    #talks section.redefine div.right h4{
+        font-size: 26px;
+    }
+    #talks section.partners{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    #talks section.partners div.heading{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #talks section.partners div.heading h2{
+        font-size: 40px;
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    #touch section.background div.vector div.flex div.form h4{
+        font-size: 26px;
+    }
+    #touch section.background div.vector div.flex div.form form input{
+        font-size: 14px;
+    }
+    #touch section.background div.vector div.flex div.form form textarea{
+        font-size: 14px;
+    }
+    #touch section.background div.vector div.flex div.form a.button{
+        font-size: 16px;
+    }
+    #touch section.background div.vector footer div.contact h4{
+        font-size: 26px;
+    }
+    #touch section.background div.vector footer div.contact a{
+        font-size: 14px;
+    }
+    #touch section.background div.vector footer h4{
+        font-size: 26px;
+    }
+    #touch section.background div.vector footer ul li{
+        font-size: 14px;
+    }
+}
+@media all and (max-width:1080px){
+    #spotlight{
+        padding: 0;
+    }
+    #spotlight h1{
+        font-size: 46px;
+    }
+    #services section.flex div.item div.container img.comp{
+        right: 34%;
+    }
+    #consulting section.container div.right h2 {
+        margin-bottom: 15px;
+    }
+    #consulting section.container div.right p{
+        margin-bottom: 15px;
+    }
+    #middle div.flex{
+        flex-wrap: wrap;
+        padding-top: 2%;
+    }
+    #middle div.flex section.left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #middle div.flex section.left h2{
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #middle div.flex ul{
+        width: 100%;
+    }
+    #redefine section.container{
+        padding-top: 28%;
+    }
+    #redefine section.container div.left h2{
+        margin-bottom: 10px;
+    }
+    #redefine section.container div.left h5{
+        margin-bottom: 10px;
+    }
+    #talks h2{
+        text-align: center;
+    }
+    #talks section.redefine{
+        width: 90%;
+    }
+    #talks section.redefine div.left {
+        background-position: 12px -9px;
+    }
+}
+@media all and (max-width:980px){
+    header{
+        padding: 16px 0 7px;
+    }
+    header section.content h1 {
+        width: 90px;
+    }
+    header section.content nav.middle ul{
+        display: none;
+    }
+    header section.content span a.button {
+        padding: 12px 30px;
+        font-size: 16px;
+    }
+    #spotlight h1 {
+        font-size: 36px;
+        width: 69%;
+        margin-bottom: 8px;
+    }
+    #spotlight p {
+        width: 70%;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    #spotlight a.button{
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+    #about {
+        margin-top: 90px;
+        height: 350px;
+    }
+    #about div.container h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+        margin-top: 24px;
+    }
+    #about p {
+        font-size: 16px;
+        max-width: 563px;
+    }
+    #services h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #services section.flex div.item h4 {
+        font-size: 22px;
+    }
+    #services section.flex div.item p {
+        font-size: 16px;
+    }
+    #consulting section.container{
+        flex-wrap: wrap;
+    }
+    #consulting section.container div.left div.image{
+        width: 100%;
+    }
+    #consulting section.container div.right{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #consulting section.container div.right h2 {
+        font-size: 36px;
+        max-width:  90%;
+    }
+    #consulting section.container div.right p{
+        font-size: 16px;
+        max-width: 90%;
+    }
+    #consulting section.container div.right a.button{
+        padding: 8px 18px;
+        font-size: 14px;
+        margin-left: 200px;
+        color: #fff;
+    }
+    #middle div.flex section.left h2 {
+        font-size: 36px;
+    }
+    #middle div.flex ul li p{
+        font-size: 16px;
+    }
+    #redefine section.container{
+        flex-wrap: wrap;
+        padding-top: 40%;
+    }
+    #redefine section.container div.left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #redefine section.container div.right {
+        width: 100%;
+        
+    }
+    #redefine section.container div.right div.image {
+        width: 48%;
+        margin-left: 50%;
+    }
+    #redefine section.container div.left h2 {
+        font-size: 36px;
+    }
+    #redefine section.container div.left p {
+        font-size: 16px;
+    }
+    #redefine section.container div.left h5 {
+        font-size: 20px;
+    }
+    #redefine section.container div.left ul li {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    #talks h2 {
+        font-size: 36px;
+    }
+    #talks section.redefine{
+        flex-wrap: wrap;
+    }
+    #talks section.redefine div.left{
+        width: 100%;
+        background-position: 130px -25px;
+        margin-bottom: 10px;
+    }
+    #talks section.redefine div.right {
+        width: 100%;
+    }
+    #talks section.redefine div.right h4 {
+        font-size: 22px;
+        text-align: center;
+    }
+    #talks section.redefine div.right p {
+        font-size: 16px;
+        font-weight: 550;
+        width: 80%;
+        margin: 0 auto;text-align: center;
+    }
+    #talks section.partners div.heading h2{
+        font-size: 36px;
+    }
+    #touch section.bg {
+        
+        border-top-right-radius: 39% 34%;
+        border-top-left-radius: 57% 99%;
+        height: 820px;
+    }
+    }
+    #touch section.background {
+        border-top-right-radius: 41% 36%;
+        border-top-left-radius: 61% 102%;
+        height: 820px;
+        padding-top: 8%;
+    }
+    #touch section.background div.vector{
+        padding: 8% 0 0;
+        height: 820px;
+    }
+    #touch section.background div.vector div.flex div.form h4 {
+        font-size: 22px;
+    } 
+    #touch section.background div.vector div.flex div.form form input {
+        font-size: 12px;
+    }
+    #touch section.background div.vector div.flex div.form form textarea {
+        font-size: 12px;
+    }
+    #touch section.background div.vector div.flex div.form a.button {
+        font-size: 12px;
+        padding: 8px 18px;
+    }
+    #touch section.background div.vector footer div.contact h4 {
+        font-size: 22px;
+    }
+    #touch section.background div.vector footer div.contact a {
+        font-size: 12px;
+    }
+    #touch section.background div.vector footer div.contact div.social ul li {
+        
+        padding: 2px;
+        border-radius: 8px;
+    }
+    #touch section.background div.vector footer h4 {
+        font-size: 22px;
+    }
+
+}
 
 
 

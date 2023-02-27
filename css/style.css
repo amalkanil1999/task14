@@ -140,11 +140,13 @@ br.clear {
 #container img.vector{
     position: absolute;
     z-index: -2;
+    width: 100vw;
 
 }
 #container img.subtract{
     position: absolute;
     z-index: -1;
+    width: 100vw;
    
 }
 
@@ -571,6 +573,203 @@ margin-left: 20px;
     display: block;
     width: 100%;
 
+}
+#touch { 
+
+}
+
+#touch section.bg { 
+    height: 920px;
+    width: 100%;
+    background: #75aa58;
+    border-top-right-radius: 47% 55%;
+    border-top-left-radius: 54% 96%;
+    padding-top: 4%;
+
+}
+
+#touch section.background { 
+    height: 920px;
+    width: 100%;
+    background: #d9d9d9;
+    border-top-right-radius: 47% 55%;
+    border-top-left-radius: 62% 87%;
+    padding-top: 5%;
+   
+
+}
+
+#touch section.background div.vector { 
+    background-image: url(../Assets/Vector\ 287.png);
+    padding: 8% 0 3%;
+    background-repeat: no-repeat;
+    
+
+}
+
+#touch section.background div.vector img { 
+
+}
+
+
+#touch section.background div.vector  div.flex { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#touch section.background div.vector  div.flex div.image { 
+    width: 45%;
+}
+
+#touch section.background div.vector  div.flex div.image img { 
+    border-radius: 59% 41% 47% 53% / 49% 56% 44% 51%;
+    width: 100%;
+    display: block;
+
+}
+
+#touch section.background div.vector  div.flex div.form { 
+    width: 45%;
+}
+
+#touch section.background div.vector  div.flex div.form h4 { 
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 800;
+
+}
+
+#touch section.background div.vector  div.flex div.form form { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+#touch section.background div.vector  div.flex div.form form input{
+    background: #fff;
+    margin-bottom: 30px;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    
+   
+
+
+}
+
+#touch section.background div.vector  div.flex div.form form input.text {
+    width: 48%;
+    
+
+}
+
+#touch section.background div.vector  div.flex div.form form input.one { 
+    width: 100%;
+    height: 60px;
+}
+
+#touch section.background div.vector  div.flex div.form form textarea{ 
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #000;
+
+
+}
+
+#touch section.background div.vector  div.flex div.form a.button { 
+    color: #fff;
+    padding: 16px 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-image: linear-gradient( to right, #69a543, #bced9c);
+    display: inline-block;
+    margin-top: 20px;
+    
+
+}
+
+#touch section.background div.vector  hr.line { 
+    border: 1px solid #fff;
+    margin: 50px 0;
+}
+
+#touch section.background div.vector  footer { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+
+   
+}
+
+#touch section.background div.vector  footer div.contact { 
+    text-align: center;
+
+}
+
+#touch section.background div.vector  footer div.contact h4 { 
+    font-size: 30px;
+
+}
+
+#touch section.background div.vector  footer div.contact a{ 
+    margin: 10px 0;
+    display: inline-block;
+    color: #fff;
+
+}
+
+#touch section.background div.vector  footer div.contact div.social {
+    margin-top: 10px;
+
+}
+
+#touch section.background div.vector  footer div.contact div.social ul { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#touch section.background div.vector  footer div.contact div.social ul li { 
+   background: #75aa58;
+   padding: 4px;
+   border-radius: 5px;
+
+}
+
+#touch section.background div.vector  footer div.contact div.social ul li img { 
+    width: 100%;
+    display: block;
+    filter: invert(100%);
+}
+
+#touch section.background div.vector  footer div.blog { 
+
+}
+
+#touch section.background div.vector footer h4 { 
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+#touch section.background div.vector  footer  ul { 
+
+}
+
+#touch section.background div.vector  footer  ul li { 
+
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 

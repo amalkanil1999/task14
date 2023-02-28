@@ -1175,7 +1175,7 @@ margin-left: 20px;
         border-top-left-radius: 57% 99%;
         height: 820px;
     }
-    }
+    
     #touch section.background {
         border-top-right-radius: 41% 36%;
         border-top-left-radius: 61% 102%;
@@ -1215,7 +1215,64 @@ margin-left: 20px;
     }
 
 }
-
+@media all and (max-width:768px){
+    #container img.vector{
+        height: 550px;
+    }
+    #container img.subtract{
+        height: 550px;
+    }
+    header section.content h1 {
+        width: 80px;
+    }
+    header section.content span a.button {
+        padding: 8px 26px;
+    }
+    #about {
+        margin-top: 108px;
+        height: 343px;
+    }
+    #services section.flex{
+        flex-wrap: wrap;
+    }
+    #services section.flex div.item {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #services section.flex div.item div.container img.comp {
+        right: 43%;
+    }
+    #talks section.redefine div.left {
+        width: 100%;
+        background-position: 90px -25px;
+    }
+    #redefine section.container {
+        padding-top: 55%;
+    }
+    #touch section.bg{
+        background: none;
+        height: 0;
+    }
+    #touch section.background {
+        height: 761px;
+        padding-top: 2%;
+    }
+    #touch section.background div.vector {
+        padding: 12% 0 0;
+        height: 761px;
+    }
+    #touch section.background div.vector div.flex div.form form input {
+        margin-bottom: 15px;
+        height: 40px;
+    
+    }
+    #touch section.background div.vector div.flex div.form form input.one {
+        height: 50px;
+    }
+}
+@media all and (max-width:640px){
+    
+}
 
 
 
